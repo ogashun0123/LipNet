@@ -10,17 +10,16 @@ setup(name='lipnet',
     packages=['lipnet'],
     zip_safe=False,
 	install_requires=[
-        'Keras==2.0.2',
-        'editdistance==0.3.1',
-		'h5py==2.6.0',
-		'matplotlib==2.0.0',
-		'numpy==1.12.1',
-		'python-dateutil==2.6.0',
-		'scipy==0.19.0',
-		'Pillow==4.1.0',
-		'tensorflow-gpu==1.0.1',
-		'Theano==0.9.0',
-        'nltk==3.2.2',
-        'sk-video==1.1.7',
-        'dlib==19.4.0'
-    ])
+    	'Keras>=2.0.2',
+    	'editdistance>=0.3.1',
+    	'h5py>=3.0',
+    	'matplotlib>=3.0',
+    	'numpy>=1.20',
+    	'python-dateutil>=2.6.0',
+    	'scipy>=1.5',
+    	'Pillow>=8.0',
+    	'tensorflow>=2.5.0',
+    	'nltk>=3.2.2',
+    	'scikit-video>=1.1.7', # パッケージ名は'scikit-video'が正解です
+    	'dlib>=19.4.0'
+	])
